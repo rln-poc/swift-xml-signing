@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pacs:Document xmlns:pacs="urn:iso:std:iso:20022:tech:xsd:pacs.008.001.10">
+  <pacs:FIToFICstmrCdtTrf>
+    <pacs:GrpHdr>
+      <pacs:MsgId>018264daa45f70dc-ad7c516d25f3c02b</pacs:MsgId>
+      <pacs:CreDtTm>2022-08-03T17:57:06.783Z</pacs:CreDtTm>
+      <pacs:NbOfTxs>1</pacs:NbOfTxs>
+      <pacs:SttlmInf>
+        <pacs:SttlmMtd>CLRG</pacs:SttlmMtd>
+      </pacs:SttlmInf>
+    </pacs:GrpHdr>
+    <pacs:CdtTrfTxInf>
+      <pacs:PmtId>
+        <pacs:EndToEndId>018264daa45f70dd-bc6d65f33125ae74</pacs:EndToEndId>
+      </pacs:PmtId>
+      <pacs:IntrBkSttlmAmt Ccy="EUR">100.00000</pacs:IntrBkSttlmAmt>
+      <pacs:ChrgBr>SLEV</pacs:ChrgBr>
+      <pacs:Dbtr/>
+      <pacs:DbtrAcct>
+        <pacs:Nm>address2</pacs:Nm>
+      </pacs:DbtrAcct>
+      <pacs:DbtrAgt>
+        <pacs:FinInstnId>
+          <pacs:LEI>FA572W3LXS89IADZ3W49</pacs:LEI>
+        </pacs:FinInstnId>
+      </pacs:DbtrAgt>
+      <pacs:CdtrAgt>
+        <pacs:FinInstnId>
+          <pacs:BICFI>GE2PGCDWPXT</pacs:BICFI>
+        </pacs:FinInstnId>
+      </pacs:CdtrAgt>
+      <pacs:Cdtr/>
+      <pacs:CdtrAcct>
+        <pacs:Nm>address1</pacs:Nm>
+      </pacs:CdtrAcct>
+    </pacs:CdtTrfTxInf>
+  </pacs:FIToFICstmrCdtTrf>
+</pacs:Document>

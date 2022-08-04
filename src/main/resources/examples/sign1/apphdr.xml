@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<head:AppHdr xmlns:head="urn:iso:std:iso:20022:tech:xsd:head.001.001.03">
+  <head:Fr>
+    <head:OrgId>
+      <head:Nm>Test-participant-1</head:Nm>
+    </head:OrgId>
+  </head:Fr>
+  <head:To>
+    <head:OrgId>
+      <head:Nm>RLN</head:Nm>
+    </head:OrgId>
+  </head:To>
+  <head:BizMsgIdr>018264daa45f70dc-ad7c516d25f3c02b</head:BizMsgIdr>
+  <head:MsgDefIdr>pacs.008.001.10</head:MsgDefIdr>
+  <head:CreDt>2022-08-03T17:57:06.783Z</head:CreDt>
+  <head:Sgntr>
+  </head:Sgntr>
+</head:AppHdr>
